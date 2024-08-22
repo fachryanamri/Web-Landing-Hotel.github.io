@@ -1,0 +1,63 @@
+.nav-link{
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+.nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+
+
+}
+
+.tombol{
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+.jumbotron{
+    background-image: url(img/jumbotron-bg.jpg);
+    background-size: cover;
+    height: 640px;
+    text-align: center;
+    
+}
+
+.jumbotron .display-4{
+    color: white;
+    margin-top: 150px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.jumbotron .display-4 span{
+    font-weight: 600;
+}
+
+.Workingspace{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.Workingspace h3{
+    font-size: 52px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-top: 30px;
+    
+}
+
+.Workingspace h3 span{
+    font-weight: 500;
+}
+
+.Ourrooms{
+    text-align: center;
+    padding: 50px;
+}
+
